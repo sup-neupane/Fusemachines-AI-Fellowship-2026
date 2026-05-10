@@ -1,0 +1,14 @@
+from sqlalchemy.ext.declarative import declarative_base #type:ignore
+from sqlalchemy import Column, Integer , String, Float #type:ignore
+
+Base = declarative_base()
+
+class Product(Base):
+
+    __tablename__ = "products"
+
+    id = Column(Integer, primary_key=True, index=True)
+    name = Column(String)
+    description = Column(String)
+    price = Column(Float)
+    quantity = Column(Integer)
