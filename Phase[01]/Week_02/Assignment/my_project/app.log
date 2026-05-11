@@ -1,0 +1,456 @@
+[2026-05-11 16:47:08] INFO     app.database - Dtabase Engine Created Sucessfully
+[2026-05-11 16:47:08] INFO     app.main - Customer API application started.
+[2026-05-11 16:48:26] INFO     app.database - Database Engine Created Sucessfully
+[2026-05-11 16:48:26] INFO     app.main - Customer API application started.
+[2026-05-11 16:48:41] DEBUG    app.database - Database Session Opened
+[2026-05-11 16:48:41] INFO     app.router - GET /customers — skip=0, limit=10
+[2026-05-11 16:48:41] INFO     app.crud - Fetching customers - skip = 0 , limit = 10
+[2026-05-11 16:48:42] ERROR    app.database - Database session encountered an error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "admin"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-05-11 16:48:42] DEBUG    app.database - Database session closed.
+[2026-05-11 16:49:02] INFO     app.database - Database Engine Created Sucessfully
+[2026-05-11 16:49:02] INFO     app.main - Customer API application started.
+[2026-05-11 16:49:09] DEBUG    app.database - Database Session Opened
+[2026-05-11 16:49:09] INFO     app.router - GET /customers — skip=0, limit=10
+[2026-05-11 16:49:09] INFO     app.crud - Fetching customers - skip = 0 , limit = 10
+[2026-05-11 16:49:09] ERROR    app.database - Database session encountered an error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "admin"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-05-11 16:49:09] DEBUG    app.database - Database session closed.
+[2026-05-11 16:50:10] INFO     app.database - Database Engine Created Sucessfully
+[2026-05-11 16:50:10] INFO     app.main - Customer API application started.
+[2026-05-11 16:50:19] DEBUG    app.database - Database Session Opened
+[2026-05-11 16:50:19] INFO     app.router - GET /customers — skip=0, limit=10
+[2026-05-11 16:50:19] INFO     app.crud - Fetching customers - skip = 0 , limit = 10
+[2026-05-11 16:50:19] ERROR    app.database - Database session encountered an error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "admin"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-05-11 16:50:19] DEBUG    app.database - Database session closed.
+[2026-05-11 16:51:53] INFO     app.database - Database Engine Created Sucessfully
+[2026-05-11 16:51:53] INFO     app.main - Customer API application started.
+[2026-05-11 16:52:08] DEBUG    app.database - Database Session Opened
+[2026-05-11 16:52:08] INFO     app.router - GET /customers — skip=0, limit=10
+[2026-05-11 16:52:08] INFO     app.crud - Fetching customers - skip = 0 , limit = 10
+[2026-05-11 16:52:08] ERROR    app.database - Database session encountered an error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "admin"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-05-11 16:52:08] DEBUG    app.database - Database session closed.
+[2026-05-11 16:55:21] INFO     app.database - Database Engine Created Sucessfully
+[2026-05-11 16:55:21] INFO     app.main - Customer API application started.
+[2026-05-11 16:55:24] DEBUG    app.database - Database Session Opened
+[2026-05-11 16:55:24] INFO     app.router - GET /customers — skip=0, limit=10
+[2026-05-11 16:55:24] INFO     app.crud - Fetching customers - skip = 0 , limit = 10
+[2026-05-11 16:55:24] ERROR    app.database - Database session encountered an error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "admin"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-05-11 16:55:24] DEBUG    app.database - Database session closed.
+[2026-05-11 16:58:25] INFO     app.database - Database Engine Created Sucessfully
+[2026-05-11 16:58:25] INFO     app.main - Customer API application started.
+[2026-05-11 16:58:28] DEBUG    app.database - Database Session Opened
+[2026-05-11 16:58:28] INFO     app.router - GET /customers — skip=0, limit=10
+[2026-05-11 16:58:28] INFO     app.crud - Fetching customers - skip = 0 , limit = 10
+[2026-05-11 16:58:29] ERROR    app.database - Database session encountered an error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "admin"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-05-11 16:58:29] DEBUG    app.database - Database session closed.
+[2026-05-11 17:03:47] INFO     app.database - Database Engine Created Sucessfully
+[2026-05-11 17:03:47] INFO     app.main - Customer API application started.
+[2026-05-11 17:03:52] DEBUG    app.database - Database Session Opened
+[2026-05-11 17:03:52] INFO     app.router - GET /customers — skip=0, limit=10
+[2026-05-11 17:03:52] INFO     app.crud - Fetching customers - skip = 0 , limit = 10
+[2026-05-11 17:03:52] ERROR    app.database - Database session encountered an error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "admin"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-05-11 17:03:52] DEBUG    app.database - Database session closed.
+[2026-05-11 17:03:55] DEBUG    app.database - Database Session Opened
+[2026-05-11 17:03:55] INFO     app.router - GET /customers — skip=0, limit=10
+[2026-05-11 17:03:55] INFO     app.crud - Fetching customers - skip = 0 , limit = 10
+[2026-05-11 17:03:55] ERROR    app.database - Database session encountered an error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "admin"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-05-11 17:03:55] DEBUG    app.database - Database session closed.
+[2026-05-11 17:07:03] INFO     app.database - Database Engine Created Sucessfully
+[2026-05-11 17:07:03] INFO     app.main - Customer API application started.
+[2026-05-11 17:07:17] DEBUG    app.database - Database Session Opened
+[2026-05-11 17:07:17] INFO     app.router - GET /customers — skip=0, limit=10
+[2026-05-11 17:07:17] INFO     app.crud - Fetching customers - skip = 0 , limit = 10
+[2026-05-11 17:07:20] ERROR    app.database - Database session encountered an error: (psycopg2.OperationalError) could not translate host name "db" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-05-11 17:07:20] DEBUG    app.database - Database session closed.
+[2026-05-11 17:07:24] DEBUG    app.database - Database Session Opened
+[2026-05-11 17:07:24] INFO     app.router - GET /customers — skip=0, limit=10
+[2026-05-11 17:07:24] INFO     app.crud - Fetching customers - skip = 0 , limit = 10
+[2026-05-11 17:07:27] ERROR    app.database - Database session encountered an error: (psycopg2.OperationalError) could not translate host name "db" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-05-11 17:07:27] DEBUG    app.database - Database session closed.
+[2026-05-11 17:11:46] INFO     app.database - Database Engine Created Sucessfully
+[2026-05-11 17:11:46] INFO     app.main - Customer API application started.
+[2026-05-11 17:11:53] DEBUG    app.database - Database Session Opened
+[2026-05-11 17:11:53] INFO     app.router - GET /customers — skip=0, limit=10
+[2026-05-11 17:11:53] INFO     app.crud - Fetching customers - skip = 0 , limit = 10
+[2026-05-11 17:11:53] ERROR    app.database - Database session encountered an error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "admin"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-05-11 17:11:53] DEBUG    app.database - Database session closed.
+[2026-05-11 17:12:55] INFO     app.database - Database Engine Created Sucessfully
+[2026-05-11 17:12:55] INFO     app.main - Customer API application started.
+[2026-05-11 17:13:22] DEBUG    app.database - Database Session Opened
+[2026-05-11 17:13:22] INFO     app.router - GET /customers — skip=0, limit=10
+[2026-05-11 17:13:22] INFO     app.crud - Fetching customers - skip = 0 , limit = 10
+[2026-05-11 17:13:22] ERROR    app.database - Database session encountered an error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "admin"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-05-11 17:13:22] DEBUG    app.database - Database session closed.
+[2026-05-11 17:13:23] DEBUG    app.database - Database Session Opened
+[2026-05-11 17:13:23] INFO     app.router - GET /customers — skip=0, limit=10
+[2026-05-11 17:13:23] INFO     app.crud - Fetching customers - skip = 0 , limit = 10
+[2026-05-11 17:13:23] ERROR    app.database - Database session encountered an error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "admin"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-05-11 17:13:23] DEBUG    app.database - Database session closed.
+[2026-05-11 17:15:24] INFO     app.database - Database engine created successfully.
+[2026-05-11 17:15:24] INFO     app.main - Customer API application started.
+[2026-05-11 17:15:30] INFO     app.database - Database engine created successfully.
+[2026-05-11 17:15:30] INFO     app.main - Customer API application started.
+[2026-05-11 17:16:05] INFO     app.database - Database engine created successfully.
+[2026-05-11 17:16:05] INFO     app.main - Customer API application started.
+[2026-05-11 17:16:17] DEBUG    app.database - Database session opened.
+[2026-05-11 17:16:17] INFO     app.router - GET /customers — skip=0, limit=10
+[2026-05-11 17:16:17] INFO     app.crud - Fetching customers - skip = 0 , limit = 10
+[2026-05-11 17:16:17] ERROR    app.database - Database session encountered an error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "admin"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-05-11 17:16:17] DEBUG    app.database - Database session closed.
+[2026-05-11 17:20:19] INFO     app.database - Database engine created successfully.
+[2026-05-11 17:20:19] INFO     app.main - Customer API application started.
+[2026-05-11 17:20:38] DEBUG    app.database - Database session opened.
+[2026-05-11 17:20:38] INFO     app.router - GET /customers — skip=0, limit=10
+[2026-05-11 17:20:38] INFO     app.crud - Fetching customers - skip = 0 , limit = 10
+[2026-05-11 17:20:38] ERROR    app.database - Database session encountered an error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "admin"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-05-11 17:20:38] DEBUG    app.database - Database session closed.
+[2026-05-11 17:24:41] INFO     app.database - Database engine created successfully.
+[2026-05-11 17:24:41] INFO     app.main - Customer API application started.
+[2026-05-11 17:25:24] DEBUG    app.database - Database session opened.
+[2026-05-11 17:25:24] INFO     app.router - GET /customers — skip=0, limit=10
+[2026-05-11 17:25:24] INFO     app.crud - Fetching customers - skip = 0 , limit = 10
+[2026-05-11 17:25:24] INFO     app.crud - Returned 10 records
+[2026-05-11 17:25:24] INFO     app.router - Returning 10 customers.
+[2026-05-11 17:25:24] ERROR    app.database - Database session encountered an error: 83 validation errors:
+  {'type': 'string_type', 'loc': ('response', 0, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 5, 20)}
+  {'type': 'string_type', 'loc': ('response', 0, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 9, 27)}
+  {'type': 'string_type', 'loc': ('response', 0, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 25)}
+  {'type': 'string_type', 'loc': ('response', 0, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 10, 19)}
+  {'type': 'string_type', 'loc': ('response', 0, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 6, 5)}
+  {'type': 'string_type', 'loc': ('response', 0, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 12, 18)}
+  {'type': 'string_type', 'loc': ('response', 1, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 5, 21)}
+  {'type': 'string_type', 'loc': ('response', 1, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 8, 6)}
+  {'type': 'string_type', 'loc': ('response', 1, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 29)}
+  {'type': 'string_type', 'loc': ('response', 1, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 12, 17)}
+  {'type': 'string_type', 'loc': ('response', 1, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 6, 6)}
+  {'type': 'string_type', 'loc': ('response', 1, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 8, 20)}
+  {'type': 'string_type', 'loc': ('response', 2, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 4, 29)}
+  {'type': 'string_type', 'loc': ('response', 2, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 5, 21)}
+  {'type': 'string_type', 'loc': ('response', 2, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 2, 20)}
+  {'type': 'string_type', 'loc': ('response', 2, 'orders', 3, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 24)}
+  {'type': 'string_type', 'loc': ('response', 2, 'orders', 4, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 29)}
+  {'type': 'string_type', 'loc': ('response', 2, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 5, 20)}
+  {'type': 'string_type', 'loc': ('response', 2, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 12, 15)}
+  {'type': 'string_type', 'loc': ('response', 2, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 5, 31)}
+  {'type': 'string_type', 'loc': ('response', 2, 'payments', 3, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 3, 10)}
+  {'type': 'string_type', 'loc': ('response', 3, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 7, 23)}
+  {'type': 'string_type', 'loc': ('response', 3, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 10, 29)}
+  {'type': 'string_type', 'loc': ('response', 3, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 2, 3)}
+  {'type': 'string_type', 'loc': ('response', 3, 'orders', 3, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 5, 31)}
+  {'type': 'string_type', 'loc': ('response', 3, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 14)}
+  {'type': 'string_type', 'loc': ('response', 3, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 8, 8)}
+  {'type': 'string_type', 'loc': ('response', 3, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 2, 22)}
+  {'type': 'string_type', 'loc': ('response', 4, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 1, 29)}
+  {'type': 'string_type', 'loc': ('response', 4, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 10, 10)}
+  {'type': 'string_type', 'loc': ('response', 4, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 10, 15)}
+  {'type': 'string_type', 'loc': ('response', 4, 'orders', 3, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 5)}
+  {'type': 'string_type', 'loc': ('response', 4, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 2, 16)}
+  {'type': 'string_type', 'loc': ('response', 4, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 10, 28)}
+  {'type': 'string_type', 'loc': ('response', 4, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 4)}
+  {'type': 'string_type', 'loc': ('response', 4, 'payments', 3, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 28)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 3, 26)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 7, 2)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 8, 8)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 3, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 11, 12)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 4, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 3, 11)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 5, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 7, 20)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 6, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 8, 20)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 7, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 10, 21)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 8, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 19)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 9, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 12, 10)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 10, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 1, 19)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 11, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 1, 23)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 12, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 2, 17)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 13, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 2, 28)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 14, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 3, 4)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 15, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 3, 23)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 16, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 5, 29)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 3, 5)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 8, 28)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 4, 11)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 3, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 4, 16)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 4, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 12, 27)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 5, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 2)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 6, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 8, 15)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 7, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 3, 26)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 8, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 11, 25)}
+  {'type': 'string_type', 'loc': ('response', 7, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 1, 9)}
+  {'type': 'string_type', 'loc': ('response', 7, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 3, 15)}
+  {'type': 'string_type', 'loc': ('response', 7, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 10, 4)}
+  {'type': 'string_type', 'loc': ('response', 7, 'orders', 3, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 5)}
+  {'type': 'string_type', 'loc': ('response', 7, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 1, 28)}
+  {'type': 'string_type', 'loc': ('response', 7, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 10, 18)}
+  {'type': 'string_type', 'loc': ('response', 7, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 3, 24)}
+  {'type': 'string_type', 'loc': ('response', 7, 'payments', 3, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 18)}
+  {'type': 'string_type', 'loc': ('response', 8, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 3, 25)}
+  {'type': 'string_type', 'loc': ('response', 8, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 12, 1)}
+  {'type': 'string_type', 'loc': ('response', 8, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 18)}
+  {'type': 'string_type', 'loc': ('response', 8, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 12, 8)}
+  {'type': 'string_type', 'loc': ('response', 8, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 12, 11)}
+  {'type': 'string_type', 'loc': ('response', 8, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 4, 9)}
+  {'type': 'string_type', 'loc': ('response', 9, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 2, 24)}
+  {'type': 'string_type', 'loc': ('response', 9, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 5, 7)}
+  {'type': 'string_type', 'loc': ('response', 9, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 9, 8)}
+  {'type': 'string_type', 'loc': ('response', 9, 'orders', 3, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 15)}
+  {'type': 'string_type', 'loc': ('response', 9, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 3, 12)}
+  {'type': 'string_type', 'loc': ('response', 9, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 12, 2)}
+  {'type': 'string_type', 'loc': ('response', 9, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 9, 11)}
+
+  File "C:\Users\LENOVO\Desktop\Fusemachines AI Fellowship 2026\Phase[01]\Week_02\Assignment\my_project\app\router.py", line 17, in list_customers
+    GET /customers/
+[2026-05-11 17:25:24] DEBUG    app.database - Database session closed.
+[2026-05-11 17:25:38] DEBUG    app.database - Database session opened.
+[2026-05-11 17:25:38] INFO     app.router - GET /customers — skip=0, limit=10
+[2026-05-11 17:25:38] INFO     app.crud - Fetching customers - skip = 0 , limit = 10
+[2026-05-11 17:25:38] INFO     app.crud - Returned 10 records
+[2026-05-11 17:25:38] INFO     app.router - Returning 10 customers.
+[2026-05-11 17:25:38] ERROR    app.database - Database session encountered an error: 83 validation errors:
+  {'type': 'string_type', 'loc': ('response', 0, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 5, 20)}
+  {'type': 'string_type', 'loc': ('response', 0, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 9, 27)}
+  {'type': 'string_type', 'loc': ('response', 0, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 25)}
+  {'type': 'string_type', 'loc': ('response', 0, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 10, 19)}
+  {'type': 'string_type', 'loc': ('response', 0, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 6, 5)}
+  {'type': 'string_type', 'loc': ('response', 0, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 12, 18)}
+  {'type': 'string_type', 'loc': ('response', 1, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 5, 21)}
+  {'type': 'string_type', 'loc': ('response', 1, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 8, 6)}
+  {'type': 'string_type', 'loc': ('response', 1, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 29)}
+  {'type': 'string_type', 'loc': ('response', 1, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 12, 17)}
+  {'type': 'string_type', 'loc': ('response', 1, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 6, 6)}
+  {'type': 'string_type', 'loc': ('response', 1, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 8, 20)}
+  {'type': 'string_type', 'loc': ('response', 2, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 4, 29)}
+  {'type': 'string_type', 'loc': ('response', 2, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 5, 21)}
+  {'type': 'string_type', 'loc': ('response', 2, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 2, 20)}
+  {'type': 'string_type', 'loc': ('response', 2, 'orders', 3, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 24)}
+  {'type': 'string_type', 'loc': ('response', 2, 'orders', 4, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 29)}
+  {'type': 'string_type', 'loc': ('response', 2, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 5, 20)}
+  {'type': 'string_type', 'loc': ('response', 2, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 12, 15)}
+  {'type': 'string_type', 'loc': ('response', 2, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 5, 31)}
+  {'type': 'string_type', 'loc': ('response', 2, 'payments', 3, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 3, 10)}
+  {'type': 'string_type', 'loc': ('response', 3, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 7, 23)}
+  {'type': 'string_type', 'loc': ('response', 3, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 10, 29)}
+  {'type': 'string_type', 'loc': ('response', 3, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 2, 3)}
+  {'type': 'string_type', 'loc': ('response', 3, 'orders', 3, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 5, 31)}
+  {'type': 'string_type', 'loc': ('response', 3, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 14)}
+  {'type': 'string_type', 'loc': ('response', 3, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 8, 8)}
+  {'type': 'string_type', 'loc': ('response', 3, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 2, 22)}
+  {'type': 'string_type', 'loc': ('response', 4, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 1, 29)}
+  {'type': 'string_type', 'loc': ('response', 4, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 10, 10)}
+  {'type': 'string_type', 'loc': ('response', 4, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 10, 15)}
+  {'type': 'string_type', 'loc': ('response', 4, 'orders', 3, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 5)}
+  {'type': 'string_type', 'loc': ('response', 4, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 2, 16)}
+  {'type': 'string_type', 'loc': ('response', 4, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 10, 28)}
+  {'type': 'string_type', 'loc': ('response', 4, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 4)}
+  {'type': 'string_type', 'loc': ('response', 4, 'payments', 3, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 28)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 3, 26)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 7, 2)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 8, 8)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 3, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 11, 12)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 4, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 3, 11)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 5, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 7, 20)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 6, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 8, 20)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 7, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 10, 21)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 8, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 19)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 9, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 12, 10)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 10, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 1, 19)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 11, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 1, 23)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 12, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 2, 17)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 13, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 2, 28)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 14, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 3, 4)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 15, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 3, 23)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 16, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 5, 29)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 3, 5)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 8, 28)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 4, 11)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 3, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 4, 16)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 4, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 12, 27)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 5, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 2)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 6, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 8, 15)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 7, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 3, 26)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 8, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 11, 25)}
+  {'type': 'string_type', 'loc': ('response', 7, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 1, 9)}
+  {'type': 'string_type', 'loc': ('response', 7, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 3, 15)}
+  {'type': 'string_type', 'loc': ('response', 7, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 10, 4)}
+  {'type': 'string_type', 'loc': ('response', 7, 'orders', 3, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 5)}
+  {'type': 'string_type', 'loc': ('response', 7, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 1, 28)}
+  {'type': 'string_type', 'loc': ('response', 7, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 10, 18)}
+  {'type': 'string_type', 'loc': ('response', 7, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 3, 24)}
+  {'type': 'string_type', 'loc': ('response', 7, 'payments', 3, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 18)}
+  {'type': 'string_type', 'loc': ('response', 8, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 3, 25)}
+  {'type': 'string_type', 'loc': ('response', 8, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 12, 1)}
+  {'type': 'string_type', 'loc': ('response', 8, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 18)}
+  {'type': 'string_type', 'loc': ('response', 8, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 12, 8)}
+  {'type': 'string_type', 'loc': ('response', 8, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 12, 11)}
+  {'type': 'string_type', 'loc': ('response', 8, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 4, 9)}
+  {'type': 'string_type', 'loc': ('response', 9, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 2, 24)}
+  {'type': 'string_type', 'loc': ('response', 9, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 5, 7)}
+  {'type': 'string_type', 'loc': ('response', 9, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 9, 8)}
+  {'type': 'string_type', 'loc': ('response', 9, 'orders', 3, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 15)}
+  {'type': 'string_type', 'loc': ('response', 9, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 3, 12)}
+  {'type': 'string_type', 'loc': ('response', 9, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 12, 2)}
+  {'type': 'string_type', 'loc': ('response', 9, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 9, 11)}
+
+  File "C:\Users\LENOVO\Desktop\Fusemachines AI Fellowship 2026\Phase[01]\Week_02\Assignment\my_project\app\router.py", line 17, in list_customers
+    GET /customers/
+[2026-05-11 17:25:38] DEBUG    app.database - Database session closed.
+[2026-05-11 17:31:57] INFO     app.database - Database engine created successfully.
+[2026-05-11 17:31:58] INFO     app.main - Customer API application started.
+[2026-05-11 17:32:01] INFO     app.router - GET /customers — skip=0, limit=10
+[2026-05-11 17:32:01] INFO     app.crud - Fetching customers - skip = 0 , limit = 10
+[2026-05-11 17:32:01] INFO     app.crud - Returned 10 records
+[2026-05-11 17:32:01] INFO     app.router - Returning 10 customers.
+[2026-05-11 17:32:01] ERROR    app.database - Database session encountered an error: 83 validation errors:
+  {'type': 'string_type', 'loc': ('response', 0, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 5, 20)}
+  {'type': 'string_type', 'loc': ('response', 0, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 9, 27)}
+  {'type': 'string_type', 'loc': ('response', 0, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 25)}
+  {'type': 'string_type', 'loc': ('response', 0, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 10, 19)}
+  {'type': 'string_type', 'loc': ('response', 0, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 6, 5)}
+  {'type': 'string_type', 'loc': ('response', 0, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 12, 18)}
+  {'type': 'string_type', 'loc': ('response', 1, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 5, 21)}
+  {'type': 'string_type', 'loc': ('response', 1, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 8, 6)}
+  {'type': 'string_type', 'loc': ('response', 1, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 29)}
+  {'type': 'string_type', 'loc': ('response', 1, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 12, 17)}
+  {'type': 'string_type', 'loc': ('response', 1, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 6, 6)}
+  {'type': 'string_type', 'loc': ('response', 1, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 8, 20)}
+  {'type': 'string_type', 'loc': ('response', 2, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 4, 29)}
+  {'type': 'string_type', 'loc': ('response', 2, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 5, 21)}
+  {'type': 'string_type', 'loc': ('response', 2, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 2, 20)}
+  {'type': 'string_type', 'loc': ('response', 2, 'orders', 3, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 24)}
+  {'type': 'string_type', 'loc': ('response', 2, 'orders', 4, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 29)}
+  {'type': 'string_type', 'loc': ('response', 2, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 5, 20)}
+  {'type': 'string_type', 'loc': ('response', 2, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 12, 15)}
+  {'type': 'string_type', 'loc': ('response', 2, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 5, 31)}
+  {'type': 'string_type', 'loc': ('response', 2, 'payments', 3, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 3, 10)}
+  {'type': 'string_type', 'loc': ('response', 3, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 7, 23)}
+  {'type': 'string_type', 'loc': ('response', 3, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 10, 29)}
+  {'type': 'string_type', 'loc': ('response', 3, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 2, 3)}
+  {'type': 'string_type', 'loc': ('response', 3, 'orders', 3, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 5, 31)}
+  {'type': 'string_type', 'loc': ('response', 3, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 14)}
+  {'type': 'string_type', 'loc': ('response', 3, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 8, 8)}
+  {'type': 'string_type', 'loc': ('response', 3, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 2, 22)}
+  {'type': 'string_type', 'loc': ('response', 4, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 1, 29)}
+  {'type': 'string_type', 'loc': ('response', 4, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 10, 10)}
+  {'type': 'string_type', 'loc': ('response', 4, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 10, 15)}
+  {'type': 'string_type', 'loc': ('response', 4, 'orders', 3, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 5)}
+  {'type': 'string_type', 'loc': ('response', 4, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 2, 16)}
+  {'type': 'string_type', 'loc': ('response', 4, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 10, 28)}
+  {'type': 'string_type', 'loc': ('response', 4, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 4)}
+  {'type': 'string_type', 'loc': ('response', 4, 'payments', 3, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 28)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 3, 26)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 7, 2)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 8, 8)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 3, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 11, 12)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 4, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 3, 11)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 5, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 7, 20)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 6, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 8, 20)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 7, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 10, 21)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 8, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 19)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 9, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 12, 10)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 10, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 1, 19)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 11, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 1, 23)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 12, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 2, 17)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 13, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 2, 28)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 14, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 3, 4)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 15, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 3, 23)}
+  {'type': 'string_type', 'loc': ('response', 5, 'orders', 16, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 5, 29)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 3, 5)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 8, 28)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 4, 11)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 3, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2005, 4, 16)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 4, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 12, 27)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 5, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 2)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 6, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 8, 15)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 7, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 3, 26)}
+  {'type': 'string_type', 'loc': ('response', 5, 'payments', 8, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 11, 25)}
+  {'type': 'string_type', 'loc': ('response', 7, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 1, 9)}
+  {'type': 'string_type', 'loc': ('response', 7, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 3, 15)}
+  {'type': 'string_type', 'loc': ('response', 7, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 10, 4)}
+  {'type': 'string_type', 'loc': ('response', 7, 'orders', 3, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 5)}
+  {'type': 'string_type', 'loc': ('response', 7, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 1, 28)}
+  {'type': 'string_type', 'loc': ('response', 7, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 10, 18)}
+  {'type': 'string_type', 'loc': ('response', 7, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 3, 24)}
+  {'type': 'string_type', 'loc': ('response', 7, 'payments', 3, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 18)}
+  {'type': 'string_type', 'loc': ('response', 8, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 3, 25)}
+  {'type': 'string_type', 'loc': ('response', 8, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 12, 1)}
+  {'type': 'string_type', 'loc': ('response', 8, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 18)}
+  {'type': 'string_type', 'loc': ('response', 8, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 12, 8)}
+  {'type': 'string_type', 'loc': ('response', 8, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 12, 11)}
+  {'type': 'string_type', 'loc': ('response', 8, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 4, 9)}
+  {'type': 'string_type', 'loc': ('response', 9, 'orders', 0, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 2, 24)}
+  {'type': 'string_type', 'loc': ('response', 9, 'orders', 1, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 5, 7)}
+  {'type': 'string_type', 'loc': ('response', 9, 'orders', 2, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 9, 8)}
+  {'type': 'string_type', 'loc': ('response', 9, 'orders', 3, 'orderDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 11, 15)}
+  {'type': 'string_type', 'loc': ('response', 9, 'payments', 0, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2003, 3, 12)}
+  {'type': 'string_type', 'loc': ('response', 9, 'payments', 1, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 12, 2)}
+  {'type': 'string_type', 'loc': ('response', 9, 'payments', 2, 'paymentDate'), 'msg': 'Input should be a valid string', 'input': datetime.date(2004, 9, 11)}
+
+  File "C:\Users\LENOVO\Desktop\Fusemachines AI Fellowship 2026\Phase[01]\Week_02\Assignment\my_project\app\router.py", line 17, in list_customers
+    GET /customers/
+[2026-05-11 17:33:40] INFO     app.database - Database engine created successfully.
+[2026-05-11 17:33:41] INFO     app.main - Customer API application started.
+[2026-05-11 17:33:49] INFO     app.database - Database engine created successfully.
+[2026-05-11 17:33:49] INFO     app.main - Customer API application started.
+[2026-05-11 17:34:09] INFO     app.router - GET /customers — skip=0, limit=10
+[2026-05-11 17:34:09] INFO     app.crud - Fetching customers - skip = 0 , limit = 10
+[2026-05-11 17:34:09] INFO     app.crud - Returned 10 records
+[2026-05-11 17:34:09] INFO     app.router - Returning 10 customers.
+[2026-05-11 17:34:13] INFO     app.router - GET /customers — skip=0, limit=10
+[2026-05-11 17:34:13] INFO     app.crud - Fetching customers - skip = 0 , limit = 10
+[2026-05-11 17:34:13] INFO     app.crud - Returned 10 records
+[2026-05-11 17:34:13] INFO     app.router - Returning 10 customers.
+[2026-05-11 17:34:40] INFO     app.router - GET /customers — skip=10, limit=5
+[2026-05-11 17:34:40] INFO     app.crud - Fetching customers - skip = 10 , limit = 5
+[2026-05-11 17:34:40] INFO     app.crud - Returned 5 records
+[2026-05-11 17:34:40] INFO     app.router - Returning 5 customers.
+[2026-05-11 17:34:49] INFO     app.router - GET /customers/103
+[2026-05-11 17:34:49] INFO     app.crud - Looking up customer: 103
+[2026-05-11 17:34:49] INFO     app.crud - Customer found: Atelier graphique
+[2026-05-11 17:34:49] INFO     app.router - Returning customer: Atelier graphique
+[2026-05-11 17:34:58] INFO     app.router - GET /customers/99999
+[2026-05-11 17:34:58] INFO     app.crud - Looking up customer: 99999
+[2026-05-11 17:34:58] WARNING  app.crud - Customer not found: 99999
+[2026-05-11 17:34:58] WARNING  app.router - 404 — Customer not found: 99999
+[2026-05-11 17:34:58] ERROR    app.database - Database session encountered an error: 404: Customer with number 99999 not found.
+[2026-05-11 17:35:10] ERROR    app.database - Database session encountered an error: 1 validation error:
+  {'type': 'int_parsing', 'loc': ('path', 'customer_number'), 'msg': 'Input should be a valid integer, unable to parse string as an integer', 'input': ' Body: { "customerNumber": 9001, "customerName": "Test Corp", "contactLastName": "Smith", "contactFirstName": "John", "phone": "555-1234", "addressLine1": "123 Main St", "city": "London", "country": "UK" }'}
+
+  File "C:\Users\LENOVO\Desktop\Fusemachines AI Fellowship 2026\Phase[01]\Week_02\Assignment\my_project\app\router.py", line 29, in get_customer
+    GET /customers/{customer_number}
+[2026-05-11 17:35:23] ERROR    app.database - Database session encountered an error: 1 validation error:
+  {'type': 'int_parsing', 'loc': ('path', 'customer_number'), 'msg': 'Input should be a valid integer, unable to parse string as an integer', 'input': '9001 Body: {"city": "Manchester"}'}
+
+  File "C:\Users\LENOVO\Desktop\Fusemachines AI Fellowship 2026\Phase[01]\Week_02\Assignment\my_project\app\router.py", line 29, in get_customer
+    GET /customers/{customer_number}
+[2026-05-11 17:35:34] INFO     app.router - GET /customers/9001
+[2026-05-11 17:35:34] INFO     app.crud - Looking up customer: 9001
+[2026-05-11 17:35:34] WARNING  app.crud - Customer not found: 9001
+[2026-05-11 17:35:34] WARNING  app.router - 404 — Customer not found: 9001
+[2026-05-11 17:35:34] ERROR    app.database - Database session encountered an error: 404: Customer with number 9001 not found.
