@@ -454,3 +454,31 @@
 [2026-05-11 17:35:34] WARNING  app.crud - Customer not found: 9001
 [2026-05-11 17:35:34] WARNING  app.router - 404 — Customer not found: 9001
 [2026-05-11 17:35:34] ERROR    app.database - Database session encountered an error: 404: Customer with number 9001 not found.
+2026-05-12 11:28:29,501 - INFO - app.main - Customer API started successfully.
+2026-05-12 11:28:38,055 - INFO - app.main - Customer API started successfully.
+2026-05-12 11:28:53,721 - INFO - app.main - Customer API started successfully.
+2026-05-12 11:29:27,421 - INFO - app.main - Customer API started successfully.
+2026-05-12 11:29:36,451 - ERROR - app.database - Session error, rolling back: 1 validation error:
+  {'type': 'int_parsing', 'loc': ('path', 'customer_number'), 'msg': 'Input should be a valid integer, unable to parse string as an integer', 'input': 'count'}
+
+  File "C:\Users\LENOVO\Desktop\Fusemachines AI Fellowship 2026\Phase[01]\Week_02\Assignment\my_project\app\routers\customers.py", line 26, in get_customer
+    GET /customers/{customer_number}
+2026-05-12 11:30:11,277 - INFO - app.routers.dashboard - GET /overall_counts — starting all 8 count queries concurrently
+2026-05-12 11:30:11,283 - INFO - app.crud - Querying count: customers
+2026-05-12 11:30:11,305 - INFO - app.crud - Querying count: orders
+2026-05-12 11:30:11,332 - INFO - app.crud - Querying count: products
+2026-05-12 11:30:11,336 - INFO - app.crud - Querying count: employees
+2026-05-12 11:30:11,338 - INFO - app.crud - Querying count: offices
+2026-05-12 11:30:11,350 - INFO - app.crud - Count result — customers: 122
+2026-05-12 11:30:11,354 - INFO - app.crud - Querying count: orderdetails
+2026-05-12 11:30:11,350 - INFO - app.crud - Querying count: payments
+2026-05-12 11:30:11,431 - INFO - app.crud - Count result — employees: 23
+2026-05-12 11:30:11,437 - INFO - app.crud - Count result — products: 110
+2026-05-12 11:30:11,438 - INFO - app.crud - Querying count: productlines
+2026-05-12 11:30:11,439 - INFO - app.crud - Count result — offices: 7
+2026-05-12 11:30:11,440 - INFO - app.crud - Count result — orders: 326
+2026-05-12 11:30:11,447 - INFO - app.crud - Count result — payments: 273
+2026-05-12 11:30:11,448 - INFO - app.crud - Count result — orderdetails: 2996
+2026-05-12 11:30:11,455 - INFO - app.crud - Count result — productlines: 7
+2026-05-12 11:30:11,458 - INFO - app.routers.dashboard - asyncio.gather() completed — all 8 queries done in 179.87ms
+2026-05-12 11:30:11,459 - INFO - app.routers.dashboard - GET /overall_counts — response: {'customers': 122, 'orders': 326, 'products': 110, 'employees': 23, 'offices': 7, 'payments': 273, 'orderdetails': 2996, 'productlines': 7}

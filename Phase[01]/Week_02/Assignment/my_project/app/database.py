@@ -1,64 +1,48 @@
-from sqlalchemy import create_engine, text #type:ignore
-from sqlalchemy.orm import sessionmaker, DeclarativeBase #type:ignore
-from dotenv import load_dotenv #type:ignore
+from sqlalchemy import create_engine  # type:ignore
+from sqlalchemy.orm import sessionmaker, DeclarativeBase  # type:ignore
 import os
+import logging
+from dotenv import load_dotenv  # type:ignore
 
-from app.logger import get_logger
-
-# Load variables from .env into the environment
 load_dotenv()
 
-logger = get_logger(__name__)
+logger = logging.getLogger(__name__)
 
+# Read individual variables from .env
+POSTGRES_USER = os.getenv("POSTGRES_USER")
+POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD")
+POSTGRES_DB = os.getenv("POSTGRES_DB")
+POSTGRES_HOST = os.getenv("POSTGRES_HOST", "localhost")
+POSTGRES_PORT = os.getenv("POSTGRES_PORT", "5432")
 
-def get_database_url() -> str:
-    user = os.getenv("POSTGRES_USER")
-    password = os.getenv("POSTGRES_PASSWORD")
-    db = os.getenv("POSTGRES_DB")
-    host = os.getenv("POSTGRES_HOST", "localhost")
-    port = os.getenv("POSTGRES_PORT", "5432")
+# Validate all required variables are present
+if not all([POSTGRES_USER, POSTGRES_PASSWORD, POSTGRES_DB]):
+    raise ValueError("POSTGRES_USER, POSTGRES_PASSWORD, and POSTGRES_DB must be set in .env")
 
-    if not all([user, password, db]):
-        logger.error("Missing required database environment variables.")
-        raise ValueError(
-            "POSTGRES_USER, POSTGRES_PASSWORD, and POSTGRES_DB must be set in .env"
-        )
+# Build the connection URL from the individual parts
+DATABASE_URL = f"postgresql://{POSTGRES_USER}:{POSTGRES_PASSWORD}@{POSTGRES_HOST}:{POSTGRES_PORT}/{POSTGRES_DB}"
 
-    url = f"postgresql://{user}:{password}@{host}:{port}/{db}"
-    return url
+engine = create_engine(DATABASE_URL, echo=False)
+logger.info("Database engine created successfully.")
 
-
-# --- Engine ---
-try:
-    DATABASE_URL = get_database_url()
-    engine = create_engine(DATABASE_URL, echo=False)
-    logger.info("Database engine created successfully.")
-except Exception as e:
-    logger.error(f"Failed to create database engine: {e}")
-    raise
-
-
-SessionLocal = sessionmaker(
-    bind=engine,
+session = sessionmaker(
     autocommit=False,
     autoflush=False,
+    bind=engine
 )
 
 
-# --- Base Class ---
-# All your ORM models (table definitions) will inherit from this.
-# SQLAlchemy uses it to know which classes represent database tables.
 class Base(DeclarativeBase):
     pass
 
 
 def get_db():
-    db = SessionLocal()
+    db = session()
     logger.debug("Database session opened.")
     try:
         yield db
     except Exception as e:
-        logger.error(f"Database session encountered an error: {e}")
+        logger.error(f"Session error, rolling back: {e}")
         db.rollback()
         raise
     finally:
