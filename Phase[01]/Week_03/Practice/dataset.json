@@ -1,0 +1,14 @@
+[
+  {
+    "task": "Write a Python function to list all S3 bucket names in an AWS account.",
+    "format": "python"
+  },
+  {
+    "task": "Generate an IAM policy that allows read-only access to all S3 buckets.",
+    "format": "json"
+  },
+  {
+    "task": "Create a regular expression to validate an AWS S3 bucket ARN.",
+    "format": "regex"
+  }
+]
