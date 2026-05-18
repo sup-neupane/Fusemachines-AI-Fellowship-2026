@@ -1,0 +1,65 @@
+[
+  {
+    "output": "This meal plan is designed for a **70kg vegan athlete** standing **165cm** tall with a goal of **weight loss**. \n\nTo support fat loss while maintaining athletic performance and muscle mass, this plan provides approximately **1,750 calories** with a high protein distribution. \n\n### Daily Macro Summary\n*   **Calories:** ~1,745 kcal\n*   **Protein:** 142g (32%)\n*   **Carbohydrates:** 196g (45%)\n*   **Fats:** 44g (23%)\n\n---\n\n### 07:30 AM \u2013 Breakfast: Savory Tofu Scramble\n*   **200g** Extra firm tofu (crumbled)\n*   **100g** Fresh spinach\n*   **50g** Button mushrooms (sliced)\n*   **70g** Whole grain bread (approx. 2 slices)\n*   **5g** Nutritional yeast (for flavor and B12)\n*   *Preparation: Scramble tofu with vegetables in a non-stick pan. Use water or a small amount of soy sauce for moisture.*\n\n### 10:30 AM \u2013 Mid-Morning Snack: Protein Berry Shake\n*   **40g** Vegan protein powder (Pea/Rice blend)\n*   **250g** Unsweetened soy milk\n*   **100g** Frozen blueberries\n*   **10g** Chia seeds\n\n### 01:00 PM \u2013 Lunch: High-Protein Power Bowl\n*   **180g** Red lentils (cooked weight)\n*   **120g** Quinoa (cooked weight)\n*   **150g** Steamed broccoli\n*   **15g** Tahini (used as a dressing)\n*   **10g** Lemon juice\n\n### 04:00 PM \u2013 Pre-Workout / Afternoon Snack: Edamame & Fruit\n*   **120g** Edamame (shelled/steamed weight)\n*   **150g** Apple (approx. 1 medium apple)\n\n### 07:30 PM \u2013 Dinner: Seitan & Brown Rice Stir-fry\n*   **150g** Seitan (Vital Wheat Gluten based)\n*   **100g** Brown rice (cooked weight)\n*   **100g** Bell peppers (sliced)\n*   **50g** Snap peas\n*   **10g** Olive oil (for cooking)\n*   *Preparation: Saut\u00e9 the seitan and vegetables in olive oil with ginger and garlic.*\n\n---\n\n### Athlete Notes for Weight Loss:\n1.  **Hydration:** Drink at least 3 liters of water daily. As an athlete, your water needs increase with sweat loss.\n2.  **Fiber:** This plan is very high in fiber (lentils, seeds, whole grains). If your body isn't used to this, increase water intake to assist digestion.\n3.  **Timing:** The 4:00 PM snack provides complex carbs and protein to fuel your evening training session without feeling heavy.\n4.  **Budget Tip:** Buying dry lentils and rice in bulk, and using frozen berries instead of fresh, significantly lowers the daily cost of this plan.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "165cm",
+        "weight": "70kg",
+        "goal": "Weight loss",
+        "restrictions": "Vegan"
+      },
+      "solution_criteria": [
+        "The meal plan is compact, concise, and covers one full day.",
+        "All suggested meals and snacks are suitable for a vegan diet.",
+        "The plan reflects a caloric deficit appropriate for weight loss.",
+        "The plan includes adequate protein sources from vegan foods suitable for an athlete."
+      ],
+      "task_description": "Write a compact , concise 1 day meal plan for single athlete",
+      "scenario": "Test Case: Weight Loss, Vegan Diet. Athlete: Female, 165cm, 70kg. Goal: Weight loss. Restrictions: Vegan. Expected: A compact, plant-based meal plan with a caloric deficit, ensuring adequate protein and nutrients from vegan sources."
+    },
+    "score": 3,
+    "reasoning": "The solution failed to meet the mandatory requirement of providing a Micronutrient Breakdown. It only provided a Macronutrient summary (Calories, Protein, Carbs, Fats). According to the evaluation instructions, any violation of a mandatory requirement results in a score of 3 or lower."
+  },
+  {
+    "output": "Based on a height of 180cm and a weight of 80kg, a male athlete requires approximately **3,500 calories** per day to support consistent muscle gain (hypertrophy) while maintaining a high training volume.\n\n### Daily Macronutrient Target\n*   **Calories:** 3,500 kcal\n*   **Protein:** 215g\n*   **Carbohydrates:** 450g\n*   **Fats:** 95g\n\n---\n\n### Meal 1: Breakfast (08:00)\n*Focus: High fiber and slow-releasing energy to start the day.*\n*   **Oats (Dry weight):** 120g\n*   **Whole Milk:** 300g\n*   **Whey Protein Powder:** 35g\n*   **Peanut Butter:** 30g\n*   **Banana:** 120g\n*   **Totals:** *985 kcal | 60g Protein | 120g Carbs | 31g Fat*\n\n### Meal 2: Mid-Morning Snack (11:00)\n*Focus: Sustained protein synthesis.*\n*   **Greek Yogurt (0% or low fat):** 200g\n*   **Granola:** 60g\n*   **Blueberries:** 100g\n*   **Totals:** *435 kcal | 26g Protein | 65g Carbs | 9g Fat*\n\n### Meal 3: Lunch (13:30)\n*Focus: Lean protein and complex carbohydrates.*\n*   **Chicken Breast (Cooked weight):** 150g\n*   **White Rice (Cooked weight):** 400g\n*   **Broccoli (Steamed):** 150g\n*   **Olive Oil (Drizzled over veggies):** 10g\n*   **Totals:** *845 kcal | 52g Protein | 115g Carbs | 18g Fat*\n\n### Meal 4: Pre-Workout (16:00)\n*Focus: Easily digestible carbohydrates for training energy.*\n*   **Whole Grain Bread:** 120g\n*   **Honey:** 20g\n*   **Apple:** 150g\n*   **Totals:** *410 kcal | 10g Protein | 88g Carbs | 4g Fat*\n\n### Meal 5: Post-Workout Dinner (19:30)\n*Focus: Muscle recovery and glycogen replenishment.*\n*   **Lean Ground Beef (90/10 - Cooked weight):** 150g\n*   **Sweet Potato (Mashed or roasted):** 350g\n*   **Mixed Salad Greens:** 100g\n*   **Avocado:** 60g\n*   **Totals:** *640 kcal | 42g Protein | 68g Carbs | 22g Fat*\n\n### Meal 6: Before Bed (22:00)\n*Focus: Slow-digesting protein (Casein) to prevent muscle breakdown overnight.*\n*   **Low Fat Cottage Cheese:** 200g\n*   **Almonds:** 20g\n*   **Totals:** *275 kcal | 26g Protein | 10g Carbs | 14g Fat*\n\n---\n\n### Total Daily Calculation:\n*   **Calories:** 3,590 kcal\n*   **Protein:** 216g\n*   **Carbohydrates:** 466g\n*   **Fats:** 98g\n\n**Notes for the Athlete:**\n1.  **Hydration:** Aim for 3.5 to 4 liters of water daily, especially during the training window.\n2.  **Consistency:** For muscle gain, the total daily calorie intake is more important than perfect timing, but the pre-and-post workout meals are prioritized here to maximize performance.\n3.  **Preparation:** Weighing food in the \"cooked\" state for meats and \"dry\" state for grains (as specified) ensures you are hitting the actual caloric targets.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180cm",
+        "weight": "80kg",
+        "goal": "Muscle gain",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "The meal plan must be concise and cover a single day.",
+        "The meal plan must explicitly support muscle gain, indicating high protein content.",
+        "The plan must include 3 to 5 distinct meals or snacks.",
+        "The plan must not include any dietary restrictions."
+      ],
+      "task_description": "Write a compact , concise 1 day meal plan for single athlete",
+      "scenario": "Test Case: Muscle Gain, No Restrictions. Athlete: Male, 180cm, 80kg. Goal: Muscle gain. Restrictions: None. Expected: A concise, high-protein meal plan with appropriate caloric intake for muscle synthesis, covering 3-5 meals/snacks."
+    },
+    "score": 3,
+    "reasoning": "The solution failed a mandatory requirement by omitting the micronutrient breakdown (vitamins/minerals), providing only macronutrients instead. Additionally, it violated the secondary criteria regarding meal frequency by providing 6 meals when the instructions specified a range of 3 to 5. Per the instructions, any violation of a mandatory requirement results in a score of 3 or lower."
+  },
+  {
+    "output": "This meal plan is designed for a **95kg endurance athlete** undergoing high-volume marathon preparation. At 190cm and 95kg, your Basal Metabolic Rate (BMR) is high, and peak endurance training requires significant carbohydrate intake to spare muscle glycogen and support recovery.\n\n### Daily Nutritional Target\n*   **Total Calories:** ~3,850 kcal\n*   **Carbohydrates:** 535g (approx. 5.6g/kg)\n*   **Protein:** 195g (approx. 2.1g/kg)\n*   **Fat:** 95g\n\n---\n\n### The Meal Plan (Gluten-Free)\n\n#### Meal 1: Pre-Workout Fuel (06:00 \u2013 30-60 mins before run)\n*Focus: Rapidly absorbing carbohydrates to top up glycogen.*\n*   **Bananas:** 240g (approx. 2 medium)\n*   **Honey:** 30g (drizzled on bananas or eaten plain)\n*   **Rice Cakes (Gluten-Free):** 30g (approx. 3 cakes)\n\n#### Meal 2: Post-Workout Recovery Breakfast (09:00)\n*Focus: Refueling glycogen and muscle repair.*\n*   **Gluten-Free Certified Rolled Oats:** 120g (Dry weight)\n*   **Whey Protein Isolate (or GF Pea Protein):** 40g \n*   **Blueberries:** 150g\n*   **Peanut Butter:** 32g\n*   **Unsweetened Almond Milk:** 250g (used to cook oats)\n\n#### Meal 3: High-Carb Performance Lunch (13:00)\n*Focus: Sustained energy and lean protein.*\n*   **White Rice (Long grain or Basmati):** 450g (Cooked weight)\n*   **Chicken Breast (Grilled):** 200g (Weight after cooking)\n*   **Zucchini & Carrots (Steamed/Saut\u00e9ed):** 150g\n*   **Olive Oil:** 15g (for cooking/dressing)\n*   **Sea Salt:** 3g (Essential for electrolyte replacement)\n\n#### Meal 4: Afternoon Endurance Snack (16:00)\n*Focus: Nutrient density and steady blood sugar.*\n*   **Greek Yogurt (0% or 2% Fat):** 250g\n*   **Gluten-Free Granola:** 50g\n*   **Grapes:** 150g\n*   **Walnuts:** 20g\n\n#### Meal 5: Recovery Dinner (19:30)\n*Focus: Slow-burning carbs and Omega-3s for inflammation.*\n*   **Sweet Potato (Roasted or Mashed):** 500g (Raw weight)\n*   **Salmon Fillet (Baked):** 200g (Weight after cooking)\n*   **Asparagus or Broccoli:** 200g\n*   **Olive Oil:** 10g (for roasting)\n\n#### Meal 6: Evening Protein/Sleep Support (21:30)\n*Focus: Prevent overnight catabolism.*\n*   **Cottage Cheese (Low Fat):** 150g\n*   **Pineapple:** 100g (contains bromelain to aid digestion/recovery)\n\n---\n\n### Budget-Friendly Athlete Tips:\n1.  **Staple Carbs:** White rice and potatoes are the most cost-effective gluten-free carbohydrate sources. Buy them in bulk (5kg+ bags).\n2.  **Oat Caution:** Standard oats are often cross-contaminated with wheat. Always ensure the package specifically says **\"Certified Gluten-Free\"** to avoid digestive distress during training.\n3.  **Protein Sourcing:** Frozen chicken breast and bags of frozen white fish/salmon are significantly cheaper than fresh cuts and offer the same nutritional value.\n4.  **Hydration:** For an athlete of this size, aim for 3.5\u20134 liters of water daily, plus 500ml\u20131L per hour of active training.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "190cm",
+        "weight": "95kg",
+        "goal": "Peak endurance training (marathon prep)",
+        "restrictions": "Gluten-Free"
+      },
+      "solution_criteria": [
+        "The output must be a concise, one-day meal plan.",
+        "The meal plan must explicitly accommodate a gluten-free restriction.",
+        "The meal plan must be suitable for an athlete focused on peak endurance training, emphasizing high-carbohydrate content.",
+        "The meal plan should provide sustained energy for intense training demands."
+      ],
+      "task_description": "Write a compact , concise 1 day meal plan for single athlete",
+      "scenario": "Test Case: Endurance Training, Gluten-Free. Athlete: Male, 190cm, 95kg. Goal: Peak endurance training (e.g., marathon prep). Restrictions: Gluten-Free. Expected: A concise, high-carbohydrate, gluten-free meal plan providing sustained energy for intense training demands."
+    },
+    "score": 3,
+    "reasoning": "The solution failed to meet a mandatory requirement: the inclusion of a micronutrient breakdown. While it provided a detailed macronutrient breakdown (calories, protein, carbs, fat), it did not list vitamins or minerals. Per the evaluation instructions, any violation of a mandatory requirement necessitates a score of 3 or lower."
+  }
+]

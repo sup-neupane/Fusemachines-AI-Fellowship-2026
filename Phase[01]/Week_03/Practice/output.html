@@ -1,0 +1,340 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prompt Evaluation Report</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 20px;
+                color: #333;
+            }
+            .header {
+                background-color: #f0f0f0;
+                padding: 20px;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+            .summary-stats {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+            .stat-box {
+                background-color: #fff;
+                border-radius: 5px;
+                padding: 15px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                flex-basis: 30%;
+                min-width: 200px;
+            }
+            .stat-value {
+                font-size: 24px;
+                font-weight: bold;
+                margin-top: 5px;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+            }
+            th {
+                background-color: #4a4a4a;
+                color: white;
+                text-align: left;
+                padding: 12px;
+            }
+            td {
+                padding: 10px;
+                border-bottom: 1px solid #ddd;
+                vertical-align: top;
+            }
+            tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+            .score {
+                font-weight: bold;
+                padding: 5px 10px;
+                border-radius: 3px;
+                display: inline-block;
+            }
+            .score-high {
+                background-color: #c8e6c9;
+                color: #2e7d32;
+            }
+            .score-medium {
+                background-color: #fff9c4;
+                color: #f57f17;
+            }
+            .score-low {
+                background-color: #ffcdd2;
+                color: #c62828;
+            }
+            .output pre {
+                background-color: #f5f5f5;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                padding: 10px;
+                margin: 0;
+                font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+                font-size: 14px;
+                line-height: 1.4;
+                color: #333;
+                box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+                overflow-x: auto;
+                white-space: pre-wrap;
+                word-wrap: break-word;
+            }
+            td {
+                width: 20%;
+            }
+            .score-col {
+                width: 80px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Prompt Evaluation Report</h1>
+            <div class="summary-stats">
+                <div class="stat-box">
+                    <div>Total Test Cases</div>
+                    <div class="stat-value">3</div>
+                </div>
+                <div class="stat-box">
+                    <div>Average Score</div>
+                    <div class="stat-value">3.0 / 10</div>
+                </div>
+                <div class="stat-box">
+                    <div>Pass Rate (≥7)</div>
+                    <div class="stat-value">0.0%</div>
+                </div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Scenario</th>
+                    <th>Prompt Inputs</th>
+                    <th>Solution Criteria</th>
+                    <th>Output</th>
+                    <th>Score</th>
+                    <th>Reasoning</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+            <tr>
+                <td>Test Case: Weight Loss, Vegan Diet. Athlete: Female, 165cm, 70kg. Goal: Weight loss. Restrictions: Vegan. Expected: A compact, plant-based meal plan with a caloric deficit, ensuring adequate protein and nutrients from vegan sources.</td>
+                <td class="prompt-inputs"><strong>height:</strong> 165cm<br><strong>weight:</strong> 70kg<br><strong>goal:</strong> Weight loss<br><strong>restrictions:</strong> Vegan</td>
+                <td class="criteria">• The meal plan is compact, concise, and covers one full day.<br>• All suggested meals and snacks are suitable for a vegan diet.<br>• The plan reflects a caloric deficit appropriate for weight loss.<br>• The plan includes adequate protein sources from vegan foods suitable for an athlete.</td>
+                <td class="output"><pre>This meal plan is designed for a **70kg vegan athlete** standing **165cm** tall with a goal of **weight loss**. 
+
+To support fat loss while maintaining athletic performance and muscle mass, this plan provides approximately **1,750 calories** with a high protein distribution. 
+
+### Daily Macro Summary
+*   **Calories:** ~1,745 kcal
+*   **Protein:** 142g (32%)
+*   **Carbohydrates:** 196g (45%)
+*   **Fats:** 44g (23%)
+
+---
+
+### 07:30 AM – Breakfast: Savory Tofu Scramble
+*   **200g** Extra firm tofu (crumbled)
+*   **100g** Fresh spinach
+*   **50g** Button mushrooms (sliced)
+*   **70g** Whole grain bread (approx. 2 slices)
+*   **5g** Nutritional yeast (for flavor and B12)
+*   *Preparation: Scramble tofu with vegetables in a non-stick pan. Use water or a small amount of soy sauce for moisture.*
+
+### 10:30 AM – Mid-Morning Snack: Protein Berry Shake
+*   **40g** Vegan protein powder (Pea/Rice blend)
+*   **250g** Unsweetened soy milk
+*   **100g** Frozen blueberries
+*   **10g** Chia seeds
+
+### 01:00 PM – Lunch: High-Protein Power Bowl
+*   **180g** Red lentils (cooked weight)
+*   **120g** Quinoa (cooked weight)
+*   **150g** Steamed broccoli
+*   **15g** Tahini (used as a dressing)
+*   **10g** Lemon juice
+
+### 04:00 PM – Pre-Workout / Afternoon Snack: Edamame & Fruit
+*   **120g** Edamame (shelled/steamed weight)
+*   **150g** Apple (approx. 1 medium apple)
+
+### 07:30 PM – Dinner: Seitan & Brown Rice Stir-fry
+*   **150g** Seitan (Vital Wheat Gluten based)
+*   **100g** Brown rice (cooked weight)
+*   **100g** Bell peppers (sliced)
+*   **50g** Snap peas
+*   **10g** Olive oil (for cooking)
+*   *Preparation: Sauté the seitan and vegetables in olive oil with ginger and garlic.*
+
+---
+
+### Athlete Notes for Weight Loss:
+1.  **Hydration:** Drink at least 3 liters of water daily. As an athlete, your water needs increase with sweat loss.
+2.  **Fiber:** This plan is very high in fiber (lentils, seeds, whole grains). If your body isn't used to this, increase water intake to assist digestion.
+3.  **Timing:** The 4:00 PM snack provides complex carbs and protein to fuel your evening training session without feeling heavy.
+4.  **Budget Tip:** Buying dry lentils and rice in bulk, and using frozen berries instead of fresh, significantly lowers the daily cost of this plan.</pre></td>
+                <td class="score-col"><span class="score score-low">3</span></td>
+                <td class="reasoning">The solution failed to meet the mandatory requirement of providing a Micronutrient Breakdown. It only provided a Macronutrient summary (Calories, Protein, Carbs, Fats). According to the evaluation instructions, any violation of a mandatory requirement results in a score of 3 or lower.</td>
+            </tr>
+        
+            <tr>
+                <td>Test Case: Muscle Gain, No Restrictions. Athlete: Male, 180cm, 80kg. Goal: Muscle gain. Restrictions: None. Expected: A concise, high-protein meal plan with appropriate caloric intake for muscle synthesis, covering 3-5 meals/snacks.</td>
+                <td class="prompt-inputs"><strong>height:</strong> 180cm<br><strong>weight:</strong> 80kg<br><strong>goal:</strong> Muscle gain<br><strong>restrictions:</strong> None</td>
+                <td class="criteria">• The meal plan must be concise and cover a single day.<br>• The meal plan must explicitly support muscle gain, indicating high protein content.<br>• The plan must include 3 to 5 distinct meals or snacks.<br>• The plan must not include any dietary restrictions.</td>
+                <td class="output"><pre>Based on a height of 180cm and a weight of 80kg, a male athlete requires approximately **3,500 calories** per day to support consistent muscle gain (hypertrophy) while maintaining a high training volume.
+
+### Daily Macronutrient Target
+*   **Calories:** 3,500 kcal
+*   **Protein:** 215g
+*   **Carbohydrates:** 450g
+*   **Fats:** 95g
+
+---
+
+### Meal 1: Breakfast (08:00)
+*Focus: High fiber and slow-releasing energy to start the day.*
+*   **Oats (Dry weight):** 120g
+*   **Whole Milk:** 300g
+*   **Whey Protein Powder:** 35g
+*   **Peanut Butter:** 30g
+*   **Banana:** 120g
+*   **Totals:** *985 kcal | 60g Protein | 120g Carbs | 31g Fat*
+
+### Meal 2: Mid-Morning Snack (11:00)
+*Focus: Sustained protein synthesis.*
+*   **Greek Yogurt (0% or low fat):** 200g
+*   **Granola:** 60g
+*   **Blueberries:** 100g
+*   **Totals:** *435 kcal | 26g Protein | 65g Carbs | 9g Fat*
+
+### Meal 3: Lunch (13:30)
+*Focus: Lean protein and complex carbohydrates.*
+*   **Chicken Breast (Cooked weight):** 150g
+*   **White Rice (Cooked weight):** 400g
+*   **Broccoli (Steamed):** 150g
+*   **Olive Oil (Drizzled over veggies):** 10g
+*   **Totals:** *845 kcal | 52g Protein | 115g Carbs | 18g Fat*
+
+### Meal 4: Pre-Workout (16:00)
+*Focus: Easily digestible carbohydrates for training energy.*
+*   **Whole Grain Bread:** 120g
+*   **Honey:** 20g
+*   **Apple:** 150g
+*   **Totals:** *410 kcal | 10g Protein | 88g Carbs | 4g Fat*
+
+### Meal 5: Post-Workout Dinner (19:30)
+*Focus: Muscle recovery and glycogen replenishment.*
+*   **Lean Ground Beef (90/10 - Cooked weight):** 150g
+*   **Sweet Potato (Mashed or roasted):** 350g
+*   **Mixed Salad Greens:** 100g
+*   **Avocado:** 60g
+*   **Totals:** *640 kcal | 42g Protein | 68g Carbs | 22g Fat*
+
+### Meal 6: Before Bed (22:00)
+*Focus: Slow-digesting protein (Casein) to prevent muscle breakdown overnight.*
+*   **Low Fat Cottage Cheese:** 200g
+*   **Almonds:** 20g
+*   **Totals:** *275 kcal | 26g Protein | 10g Carbs | 14g Fat*
+
+---
+
+### Total Daily Calculation:
+*   **Calories:** 3,590 kcal
+*   **Protein:** 216g
+*   **Carbohydrates:** 466g
+*   **Fats:** 98g
+
+**Notes for the Athlete:**
+1.  **Hydration:** Aim for 3.5 to 4 liters of water daily, especially during the training window.
+2.  **Consistency:** For muscle gain, the total daily calorie intake is more important than perfect timing, but the pre-and-post workout meals are prioritized here to maximize performance.
+3.  **Preparation:** Weighing food in the "cooked" state for meats and "dry" state for grains (as specified) ensures you are hitting the actual caloric targets.</pre></td>
+                <td class="score-col"><span class="score score-low">3</span></td>
+                <td class="reasoning">The solution failed a mandatory requirement by omitting the micronutrient breakdown (vitamins/minerals), providing only macronutrients instead. Additionally, it violated the secondary criteria regarding meal frequency by providing 6 meals when the instructions specified a range of 3 to 5. Per the instructions, any violation of a mandatory requirement results in a score of 3 or lower.</td>
+            </tr>
+        
+            <tr>
+                <td>Test Case: Endurance Training, Gluten-Free. Athlete: Male, 190cm, 95kg. Goal: Peak endurance training (e.g., marathon prep). Restrictions: Gluten-Free. Expected: A concise, high-carbohydrate, gluten-free meal plan providing sustained energy for intense training demands.</td>
+                <td class="prompt-inputs"><strong>height:</strong> 190cm<br><strong>weight:</strong> 95kg<br><strong>goal:</strong> Peak endurance training (marathon prep)<br><strong>restrictions:</strong> Gluten-Free</td>
+                <td class="criteria">• The output must be a concise, one-day meal plan.<br>• The meal plan must explicitly accommodate a gluten-free restriction.<br>• The meal plan must be suitable for an athlete focused on peak endurance training, emphasizing high-carbohydrate content.<br>• The meal plan should provide sustained energy for intense training demands.</td>
+                <td class="output"><pre>This meal plan is designed for a **95kg endurance athlete** undergoing high-volume marathon preparation. At 190cm and 95kg, your Basal Metabolic Rate (BMR) is high, and peak endurance training requires significant carbohydrate intake to spare muscle glycogen and support recovery.
+
+### Daily Nutritional Target
+*   **Total Calories:** ~3,850 kcal
+*   **Carbohydrates:** 535g (approx. 5.6g/kg)
+*   **Protein:** 195g (approx. 2.1g/kg)
+*   **Fat:** 95g
+
+---
+
+### The Meal Plan (Gluten-Free)
+
+#### Meal 1: Pre-Workout Fuel (06:00 – 30-60 mins before run)
+*Focus: Rapidly absorbing carbohydrates to top up glycogen.*
+*   **Bananas:** 240g (approx. 2 medium)
+*   **Honey:** 30g (drizzled on bananas or eaten plain)
+*   **Rice Cakes (Gluten-Free):** 30g (approx. 3 cakes)
+
+#### Meal 2: Post-Workout Recovery Breakfast (09:00)
+*Focus: Refueling glycogen and muscle repair.*
+*   **Gluten-Free Certified Rolled Oats:** 120g (Dry weight)
+*   **Whey Protein Isolate (or GF Pea Protein):** 40g 
+*   **Blueberries:** 150g
+*   **Peanut Butter:** 32g
+*   **Unsweetened Almond Milk:** 250g (used to cook oats)
+
+#### Meal 3: High-Carb Performance Lunch (13:00)
+*Focus: Sustained energy and lean protein.*
+*   **White Rice (Long grain or Basmati):** 450g (Cooked weight)
+*   **Chicken Breast (Grilled):** 200g (Weight after cooking)
+*   **Zucchini & Carrots (Steamed/Sautéed):** 150g
+*   **Olive Oil:** 15g (for cooking/dressing)
+*   **Sea Salt:** 3g (Essential for electrolyte replacement)
+
+#### Meal 4: Afternoon Endurance Snack (16:00)
+*Focus: Nutrient density and steady blood sugar.*
+*   **Greek Yogurt (0% or 2% Fat):** 250g
+*   **Gluten-Free Granola:** 50g
+*   **Grapes:** 150g
+*   **Walnuts:** 20g
+
+#### Meal 5: Recovery Dinner (19:30)
+*Focus: Slow-burning carbs and Omega-3s for inflammation.*
+*   **Sweet Potato (Roasted or Mashed):** 500g (Raw weight)
+*   **Salmon Fillet (Baked):** 200g (Weight after cooking)
+*   **Asparagus or Broccoli:** 200g
+*   **Olive Oil:** 10g (for roasting)
+
+#### Meal 6: Evening Protein/Sleep Support (21:30)
+*Focus: Prevent overnight catabolism.*
+*   **Cottage Cheese (Low Fat):** 150g
+*   **Pineapple:** 100g (contains bromelain to aid digestion/recovery)
+
+---
+
+### Budget-Friendly Athlete Tips:
+1.  **Staple Carbs:** White rice and potatoes are the most cost-effective gluten-free carbohydrate sources. Buy them in bulk (5kg+ bags).
+2.  **Oat Caution:** Standard oats are often cross-contaminated with wheat. Always ensure the package specifically says **"Certified Gluten-Free"** to avoid digestive distress during training.
+3.  **Protein Sourcing:** Frozen chicken breast and bags of frozen white fish/salmon are significantly cheaper than fresh cuts and offer the same nutritional value.
+4.  **Hydration:** For an athlete of this size, aim for 3.5–4 liters of water daily, plus 500ml–1L per hour of active training.</pre></td>
+                <td class="score-col"><span class="score score-low">3</span></td>
+                <td class="reasoning">The solution failed to meet a mandatory requirement: the inclusion of a micronutrient breakdown. While it provided a detailed macronutrient breakdown (calories, protein, carbs, fat), it did not list vitamins or minerals. Per the evaluation instructions, any violation of a mandatory requirement necessitates a score of 3 or lower.</td>
+            </tr>
+        
+            </tbody>
+        </table>
+    </body>
+    </html>
+    

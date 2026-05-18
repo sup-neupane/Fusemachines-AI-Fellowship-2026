@@ -1,14 +1,50 @@
 [
   {
-    "task": "Write a Python function to list all S3 bucket names in an AWS account.",
-    "format": "python"
+    "prompt_inputs": {
+      "height": "180cm",
+      "weight": "80kg",
+      "goal": "Muscle gain",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "The meal plan must be concise and cover a single day.",
+      "The meal plan must explicitly support muscle gain, indicating high protein content.",
+      "The plan must include 3 to 5 distinct meals or snacks.",
+      "The plan must not include any dietary restrictions."
+    ],
+    "task_description": "Write a compact , concise 1 day meal plan for single athlete",
+    "scenario": "Test Case: Muscle Gain, No Restrictions. Athlete: Male, 180cm, 80kg. Goal: Muscle gain. Restrictions: None. Expected: A concise, high-protein meal plan with appropriate caloric intake for muscle synthesis, covering 3-5 meals/snacks."
   },
   {
-    "task": "Generate an IAM policy that allows read-only access to all S3 buckets.",
-    "format": "json"
+    "prompt_inputs": {
+      "height": "165cm",
+      "weight": "70kg",
+      "goal": "Weight loss",
+      "restrictions": "Vegan"
+    },
+    "solution_criteria": [
+      "The meal plan is compact, concise, and covers one full day.",
+      "All suggested meals and snacks are suitable for a vegan diet.",
+      "The plan reflects a caloric deficit appropriate for weight loss.",
+      "The plan includes adequate protein sources from vegan foods suitable for an athlete."
+    ],
+    "task_description": "Write a compact , concise 1 day meal plan for single athlete",
+    "scenario": "Test Case: Weight Loss, Vegan Diet. Athlete: Female, 165cm, 70kg. Goal: Weight loss. Restrictions: Vegan. Expected: A compact, plant-based meal plan with a caloric deficit, ensuring adequate protein and nutrients from vegan sources."
   },
   {
-    "task": "Create a regular expression to validate an AWS S3 bucket ARN.",
-    "format": "regex"
+    "prompt_inputs": {
+      "height": "190cm",
+      "weight": "95kg",
+      "goal": "Peak endurance training (marathon prep)",
+      "restrictions": "Gluten-Free"
+    },
+    "solution_criteria": [
+      "The output must be a concise, one-day meal plan.",
+      "The meal plan must explicitly accommodate a gluten-free restriction.",
+      "The meal plan must be suitable for an athlete focused on peak endurance training, emphasizing high-carbohydrate content.",
+      "The meal plan should provide sustained energy for intense training demands."
+    ],
+    "task_description": "Write a compact , concise 1 day meal plan for single athlete",
+    "scenario": "Test Case: Endurance Training, Gluten-Free. Athlete: Male, 190cm, 95kg. Goal: Peak endurance training (e.g., marathon prep). Restrictions: Gluten-Free. Expected: A concise, high-carbohydrate, gluten-free meal plan providing sustained energy for intense training demands."
   }
 ]
