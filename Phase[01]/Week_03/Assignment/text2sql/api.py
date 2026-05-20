@@ -1,5 +1,5 @@
-from fastapi import FastAPI
-from pydantic import BaseModel
+from fastapi import FastAPI  #type:ignore
+from pydantic import BaseModel  #type:ignore
 from main import build_pipeline
 from sql_generator import generate_summary
 
