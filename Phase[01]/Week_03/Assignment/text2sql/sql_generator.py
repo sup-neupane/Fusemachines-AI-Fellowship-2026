@@ -79,6 +79,25 @@ def fix_sql(question: str, sql: str, error: str) -> str:
     response = llm.invoke(prompt)
     return extract_text(response)
 
+def generate_summary(question: str, result: list) -> str:
+    """
+    Step 5: Convert SQL result into a natural language summary.
+        """
+    prompt = f"""
+    You are a data analyst. Given a user question and the SQL query result, 
+    write a single clear sentence summarizing the answer.
+
+    Question: {question}
+    Result: {result}
+
+    Rules:
+    - Write only one sentence
+    - Be specific, include numbers if present
+    - No markdown, no extra explanation
+    """
+    response = llm.invoke(prompt)
+    return extract_text(response)
+
 
 if __name__ == "__main__":
     question = "Get customer names and cities"

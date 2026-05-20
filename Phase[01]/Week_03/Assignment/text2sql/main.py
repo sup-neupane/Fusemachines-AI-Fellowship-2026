@@ -104,7 +104,7 @@ def check_execution(state: PipelineState) -> str:
     """
     if state["status"] == "success":
         return "output"
-    elif state["retry_count"] < 1:
+    elif state["retry_count"] < 3:
         return "retry"
     else:
         print("\n[WARNING] Max retries reached. Moving to output.")
