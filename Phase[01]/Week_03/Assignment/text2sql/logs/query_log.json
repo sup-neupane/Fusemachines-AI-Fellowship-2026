@@ -1,0 +1,234 @@
+[
+  {
+    "timestamp": "2026-05-20T09:14:01.204964",
+    "question": "Get customer names and cities",
+    "sql": "SELECT \"customerName\", \"city\" FROM customers LIMIT 3;",
+    "status": "success",
+    "error": null,
+    "retry_count": 0,
+    "result": [
+      {
+        "customerName": "Atelier graphique",
+        "city": "Nantes"
+      },
+      {
+        "customerName": "Signal Gift Stores",
+        "city": "Las Vegas"
+      },
+      {
+        "customerName": "Australian Collectors, Co.",
+        "city": "Melbourne"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-20T10:09:52.848329",
+    "question": "List all products",
+    "sql": "SELECT \"productCode\", \"productName\", \"productLine\", \"productScale\", \"productVendor\", \"productDescription\", \"quantityInStock\", \"buyPrice\", \"MSRP\" FROM \"products\";",
+    "status": "success",
+    "error": null,
+    "retry_count": 0,
+    "result": [
+      {
+        "productCode": "S10_1678",
+        "productName": "1969 Harley Davidson Ultimate Chopper",
+        "productLine": "Motorcycles",
+        "productScale": "1:10",
+        "productVendor": "Min Lin Diecast",
+        "productDescription": "This replica features working kickstand, front suspension, gear-shift lever, footbrake lever, drive chain, wheels and steering. All parts are particularly delicate due to their precise scale and require special care and attention.",
+        "quantityInStock": 7933,
+        "buyPrice": "48.81",
+        "MSRP": "95.70"
+      },
+      {
+        "productCode": "S10_1949",
+        "productName": "1952 Alpine Renault 1300",
+        "productLine": "Classic Cars",
+        "productScale": "1:10",
+        "productVendor": "Classic Metal Creations",
+        "productDescription": "Turnable front wheels; steering function; detailed interior; detailed engine; opening hood; opening trunk; opening doors; and detailed chassis.",
+        "quantityInStock": 7305,
+        "buyPrice": "98.58",
+        "MSRP": "214.30"
+      },
+      {
+        "productCode": "S10_2016",
+        "productName": "1996 Moto Guzzi 1100i",
+        "productLine": "Motorcycles",
+        "productScale": "1:10",
+        "productVendor": "Highway 66 Mini Classics",
+        "productDescription": "Official Moto Guzzi logos and insignias, saddle bags located on side of motorcycle, detailed engine, working steering, working suspension, two leather seats, luggage rack, dual exhaust pipes, small saddle bag located on handle bars, two-tone paint with chrome accents, superior die-cast detail , rotating wheels , working kick stand, diecast metal with plastic parts and baked enamel finish.",
+        "quantityInStock": 6625,
+        "buyPrice": "68.99",
+        "MSRP": "118.94"
+      },
+      {
+        "productCode": "S10_4698",
+        "productName": "2003 Harley-Davidson Eagle Drag Bike",
+        "productLine": "Motorcycles",
+        "productScale": "1:10",
+        "productVendor": "Red Start Diecast",
+        "productDescription": "Model features, official Harley Davidson logos and insignias, detachable rear wheelie bar, heavy diecast metal with resin parts, authentic multi-color tampo-printed graphics, separate engine drive belts, free-turning front fork, rotating tires and rear racing slick, certificate of authenticity, detailed engine, display stand , precision diecast replica, baked enamel finish, 1:10 scale model, removable fender, seat and tank cover piece for displaying the superior detail of the v-twin engine",
+        "quantityInStock": 5582,
+        "buyPrice": "91.02",
+        "MSRP": "193.66"
+      },
+      {
+        "productCode": "S10_4757",
+        "productName": "1972 Alfa Romeo GTA",
+        "productLine": "Classic Cars",
+        "productScale": "1:10",
+        "productVendor": "Motor City Art Classics",
+        "productDescription": "Features include: Turnable front wheels; steering function; detailed interior; detailed engine; opening hood; opening trunk; opening doors; and detailed chassis.",
+        "quantityInStock": 3252,
+        "buyPrice": "85.68",
+        "MSRP": "136.00"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-20T10:09:59.197658",
+    "question": "Get orders with customer names",
+    "sql": "SELECT \"orders\".\"orderNumber\", \"customers\".\"customerName\", \"orders\".\"orderDate\", \"orders\".\"status\" FROM \"orders\" JOIN \"customers\" ON \"orders\".\"customerNumber\" = \"customers\".\"customerNumber\";",
+    "status": "success",
+    "error": null,
+    "retry_count": 0,
+    "result": [
+      {
+        "orderNumber": 10100,
+        "customerName": "Online Diecast Creations Co.",
+        "orderDate": "2003-01-06",
+        "status": "Shipped"
+      },
+      {
+        "orderNumber": 10101,
+        "customerName": "Blauer See Auto, Co.",
+        "orderDate": "2003-01-09",
+        "status": "Shipped"
+      },
+      {
+        "orderNumber": 10102,
+        "customerName": "Vitachrome Inc.",
+        "orderDate": "2003-01-10",
+        "status": "Shipped"
+      },
+      {
+        "orderNumber": 10103,
+        "customerName": "Baane Mini Imports",
+        "orderDate": "2003-01-29",
+        "status": "Shipped"
+      },
+      {
+        "orderNumber": 10104,
+        "customerName": "Euro+ Shopping Channel",
+        "orderDate": "2003-01-31",
+        "status": "Shipped"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-20T10:12:35.198752",
+    "question": "List all products",
+    "sql": "SELECT \"productCode\", \"productName\", \"productLine\", \"productScale\", \"productVendor\", \"productDescription\", \"quantityInStock\", \"buyPrice\", \"MSRP\" FROM \"products\";",
+    "status": "success",
+    "error": null,
+    "retry_count": 0,
+    "result": [
+      {
+        "productCode": "S10_1678",
+        "productName": "1969 Harley Davidson Ultimate Chopper",
+        "productLine": "Motorcycles",
+        "productScale": "1:10",
+        "productVendor": "Min Lin Diecast",
+        "productDescription": "This replica features working kickstand, front suspension, gear-shift lever, footbrake lever, drive chain, wheels and steering. All parts are particularly delicate due to their precise scale and require special care and attention.",
+        "quantityInStock": 7933,
+        "buyPrice": "48.81",
+        "MSRP": "95.70"
+      },
+      {
+        "productCode": "S10_1949",
+        "productName": "1952 Alpine Renault 1300",
+        "productLine": "Classic Cars",
+        "productScale": "1:10",
+        "productVendor": "Classic Metal Creations",
+        "productDescription": "Turnable front wheels; steering function; detailed interior; detailed engine; opening hood; opening trunk; opening doors; and detailed chassis.",
+        "quantityInStock": 7305,
+        "buyPrice": "98.58",
+        "MSRP": "214.30"
+      },
+      {
+        "productCode": "S10_2016",
+        "productName": "1996 Moto Guzzi 1100i",
+        "productLine": "Motorcycles",
+        "productScale": "1:10",
+        "productVendor": "Highway 66 Mini Classics",
+        "productDescription": "Official Moto Guzzi logos and insignias, saddle bags located on side of motorcycle, detailed engine, working steering, working suspension, two leather seats, luggage rack, dual exhaust pipes, small saddle bag located on handle bars, two-tone paint with chrome accents, superior die-cast detail , rotating wheels , working kick stand, diecast metal with plastic parts and baked enamel finish.",
+        "quantityInStock": 6625,
+        "buyPrice": "68.99",
+        "MSRP": "118.94"
+      },
+      {
+        "productCode": "S10_4698",
+        "productName": "2003 Harley-Davidson Eagle Drag Bike",
+        "productLine": "Motorcycles",
+        "productScale": "1:10",
+        "productVendor": "Red Start Diecast",
+        "productDescription": "Model features, official Harley Davidson logos and insignias, detachable rear wheelie bar, heavy diecast metal with resin parts, authentic multi-color tampo-printed graphics, separate engine drive belts, free-turning front fork, rotating tires and rear racing slick, certificate of authenticity, detailed engine, display stand , precision diecast replica, baked enamel finish, 1:10 scale model, removable fender, seat and tank cover piece for displaying the superior detail of the v-twin engine",
+        "quantityInStock": 5582,
+        "buyPrice": "91.02",
+        "MSRP": "193.66"
+      },
+      {
+        "productCode": "S10_4757",
+        "productName": "1972 Alfa Romeo GTA",
+        "productLine": "Classic Cars",
+        "productScale": "1:10",
+        "productVendor": "Motor City Art Classics",
+        "productDescription": "Features include: Turnable front wheels; steering function; detailed interior; detailed engine; opening hood; opening trunk; opening doors; and detailed chassis.",
+        "quantityInStock": 3252,
+        "buyPrice": "85.68",
+        "MSRP": "136.00"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-20T10:12:41.339210",
+    "question": "Get orders with customer names",
+    "sql": "SELECT \"orders\".\"orderNumber\", \"customers\".\"customerName\", \"orders\".\"orderDate\", \"orders\".\"status\" FROM \"orders\" JOIN \"customers\" ON \"orders\".\"customerNumber\" = \"customers\".\"customerNumber\";",
+    "status": "success",
+    "error": null,
+    "retry_count": 0,
+    "result": [
+      {
+        "orderNumber": 10100,
+        "customerName": "Online Diecast Creations Co.",
+        "orderDate": "2003-01-06",
+        "status": "Shipped"
+      },
+      {
+        "orderNumber": 10101,
+        "customerName": "Blauer See Auto, Co.",
+        "orderDate": "2003-01-09",
+        "status": "Shipped"
+      },
+      {
+        "orderNumber": 10102,
+        "customerName": "Vitachrome Inc.",
+        "orderDate": "2003-01-10",
+        "status": "Shipped"
+      },
+      {
+        "orderNumber": 10103,
+        "customerName": "Baane Mini Imports",
+        "orderDate": "2003-01-29",
+        "status": "Shipped"
+      },
+      {
+        "orderNumber": 10104,
+        "customerName": "Euro+ Shopping Channel",
+        "orderDate": "2003-01-31",
+        "status": "Shipped"
+      }
+    ]
+  }
+]
