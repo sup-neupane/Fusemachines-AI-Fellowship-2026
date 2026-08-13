@@ -1,0 +1,6 @@
+results_distilbert/
+results_qwen/
+*.bin
+*.safetensors
+__pycache__/
+.ipynb_checkpoints/
